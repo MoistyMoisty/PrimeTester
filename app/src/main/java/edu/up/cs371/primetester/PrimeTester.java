@@ -15,8 +15,10 @@ public class PrimeTester {
      */
     public static boolean isPrime(long n)
     {
+        //Goes through searching for numbers
         for(int i = 2;i< n; i++)
         {
+            //Determining if prime or not
            if(n%i==0)
            {
                return false;
