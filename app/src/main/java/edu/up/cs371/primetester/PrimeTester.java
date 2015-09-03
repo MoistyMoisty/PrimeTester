@@ -18,6 +18,11 @@ public class PrimeTester {
         //Goes through searching for numbers
         for(int i = 2;i< n; i++)
         {
+            // 0/1 aren't prime numbers
+            if(n==1 || n==0)
+            {
+                return false;
+            }
             //Determining if prime or not
            if(n%i==0)
            {
